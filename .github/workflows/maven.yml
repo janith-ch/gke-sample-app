@@ -8,7 +8,7 @@ on:
 
 env:
   PROJECT_ID: ${{secrets.GKE_PROJECT}}
-  SI_CLUSTER: developer-iq-tracker
+  SI_CLUSTER: seshat
   SI_ZONE: us-central1-c
   DEPLOYMENT_NAME: issue-management-service
   IMAGE: issue-management-service
