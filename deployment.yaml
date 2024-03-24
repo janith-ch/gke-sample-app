@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: issue-management-service
-          image: gcr.io/developer-iq-tracker/issue-management-service:prod
+          image: gcr.io/seshat/issue-management-service:prod
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
